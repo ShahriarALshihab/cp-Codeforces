@@ -6,11 +6,6 @@ int main()
     int n, k,count=0;
     cin>>n >>k;
 
-    if(k>=n){
-        cout<<"Error: k should be less than n"<<endl;
-        return 1;
-    }
-
     int scores[n];
 
     for(int i=0;i<n;i++){
@@ -23,8 +18,9 @@ int main()
             ++count;
         }
     }
-    cout<< count <<endl;
+    cout<< count;
 
     return 0;
 
 }
+
